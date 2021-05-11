@@ -1,0 +1,10 @@
+name: WorldWrapper
+main: com.teknoserval.worldwrapper.WorldWrapper
+version: 1.1.1
+author: TeknoServal
+commands:
+  basic:
+    description: This is a demo command.
+    usage: /basic [player]
+    permission: WorldWrapper.basic
+    permission-message: You don't have basic permissions.
