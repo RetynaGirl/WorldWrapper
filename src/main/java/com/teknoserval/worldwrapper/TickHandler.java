@@ -35,7 +35,7 @@ public class TickHandler {
 
 			if (entity.isValid()) {
 
-				if (!needsWrapping(entity)) {
+				if (needsWrapping(entity)) {
 
 					Entity mount = entity.getVehicle();
 
@@ -43,7 +43,7 @@ public class TickHandler {
 
 						mount.teleport(EventListener.wrapper(mount.getLocation()));
 
-						mount.setPassenger(entity);
+						mount.addPassenger(entity);
 
 					}
 
