@@ -4,10 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.teknoserval</groupId>
 	<artifactId>WorldWrapper</artifactId>
-	<version>1.1.1</version>
+	<version>1.1.2</version>
 	<build>
+		<resources>
+			<resource>
+				<targetPath>.</targetPath>
+				<filtering>true</filtering>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
+				<version>3.6.0</version>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
