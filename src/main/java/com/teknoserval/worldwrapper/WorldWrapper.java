@@ -2,7 +2,6 @@ package com.teknoserval.worldwrapper;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-import com.teknoserval.worldwrapper.ConfigHandler;
 
 public class WorldWrapper extends JavaPlugin {
 
