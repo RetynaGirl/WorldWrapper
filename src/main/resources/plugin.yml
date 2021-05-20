@@ -1,6 +1,6 @@
 name: WorldWrapper
 main: com.teknoserval.worldwrapper.WorldWrapper
-version: 1.1.1
+version: 1.1.2
 author: TeknoServal
 commands:
   basic:
