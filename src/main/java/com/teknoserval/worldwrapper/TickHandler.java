@@ -56,7 +56,6 @@ public class TickHandler {
 	}
 
 	public static boolean needsWrapping(Entity entity) {
-		
 
 		boolean needWrap = false;
 		Location loc = entity.getLocation();
@@ -68,7 +67,6 @@ public class TickHandler {
 
 		}
 
-		
 		return needWrap;
 
 	}

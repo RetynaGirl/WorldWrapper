@@ -160,6 +160,8 @@ public class EventListener implements Listener {
 			}
 		}
 
+		loc.setY(loc.getWorld().getHighestBlockYAt(loc) + 1);
+
 		return loc;
 
 	}
